@@ -2,11 +2,11 @@ Source: spice-xpi
 Section: misc
 Priority: extra
 Maintainer: Cajus Pollmeier <cajus@debian.org>
-Build-Depends: debhelper (>= 8.9.0~), autotools-dev, autoconf (>= 2.61), automake (>= 1.9.6), libtool (>= 1.5.22), liblog4cpp5-dev, xulrunner-dev, libnspr4-dev
+Build-Depends: debhelper (>= 8.9.0~), autotools-dev, autoconf (>= 2.61), automake (>= 1.9.6), libtool (>= 1.5.22), liblog4cpp5-dev, xulrunner-dev, libnspr4-dev, pkg-config, zip
 Standards-Version: 3.9.3
 Homepage: http://spice-space.org
 
-Package: spice-xpi
+Package: browser-plugin-spice
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, adduser, libsasl2-modules, sasl2-bin
 Description: XPI client for interacting with SPICE servers
