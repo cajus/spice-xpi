@@ -10,4 +10,5 @@ Package: browser-plugin-spice
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, spice-client
 Description: XPI client for interacting with SPICE servers
- This package contains a mozilla browser client for interacting with SPICE servers.
+ This package contains a mozilla browser client for interacting with SPICE
+ servers.
