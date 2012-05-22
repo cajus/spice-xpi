@@ -14,5 +14,10 @@ DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
 override_dh_auto_configure:
 	dh_auto_configure -- --libdir='/usr/lib'
 
+override_dh_auto_install:
+	dh_auto_install
+	rm debian/browser-plugin-spice/usr/lib/mozilla/install.rdf
+	rm debian/browser-plugin-spice/usr/lib/mozilla/plugins/*a
+
 %:
 	dh  $@

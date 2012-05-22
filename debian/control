@@ -8,6 +8,6 @@ Homepage: http://spice-space.org
 
 Package: browser-plugin-spice
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, adduser, libsasl2-modules, sasl2-bin
+Depends: ${shlibs:Depends}, ${misc:Depends}, spice-client
 Description: XPI client for interacting with SPICE servers
  This package contains a mozilla browser client for interacting with SPICE servers.
